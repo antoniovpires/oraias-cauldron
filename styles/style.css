@@ -1,0 +1,41 @@
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 25px;
+}
+
+.cauldron {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.cauldron input {
+  text-align: center;
+}
+
+.cauldron button, .cauldron input, #potion-table {
+  width: 100%;
+}
+
+#potion-table {
+  margin-top: 16px;
+}
+
+hr {
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+.dedicated, .dedicated a {
+  color: gray;
+}
+
+#pwa-section {
+  display: flex;
+  justify-content: center;
+}

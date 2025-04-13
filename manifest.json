@@ -1,0 +1,20 @@
+{
+  "name": "Caldeirão de Oraia",
+  "short_name": "Caldeirão de Oraia",
+  "theme_color": "#fefefe",
+  "background_color": "#0e0e0e",
+  "display": "standalone",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "images/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
