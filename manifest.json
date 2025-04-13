@@ -4,7 +4,8 @@
   "theme_color": "#fefefe",
   "background_color": "#0e0e0e",
   "display": "standalone",
-  "start_url": "/oraias-cauldron/",
+  "start_url": "/oraias-cauldron/index.html",
+  "scope": "/oraias-cauldron/",
   "icons": [
     {
       "src": "images/icon-192x192.png",

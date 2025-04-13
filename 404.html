@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caldeirão da Oraia</title>
+  <link rel="stylesheet" href="./styles/normalize.css">
+  <link rel="stylesheet" href="./styles/magick.min.css">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="manifest" href="./manifest.json">
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Caldeirão de Oraia</h1>
+      <small>Uma Ferramenta para Alquimistas de Tormenta20</small>
+    </header>
+    <section>
+      <hr>
+      <h3>Preparando poções</h3>
+      <p>
+        Insira o custo em PM da sua magia e calcule o Preço, Custo e CD de Preparação da sua poção mágica
+      </p>
+      <div class="cauldron">
+        <input id="mp-cost" name="mp-cost" type="number" placeholder="Digite o custo em PM">
+        <button id="potion-calculator">Calcular Poção</button>
+      </div>
+    </section>
+    <section>
+      <table id="potion-table" hidden>
+        <thead>
+          <th>Preço (T$)</th>
+          <th>Custo (T$)</th>
+          <th>CD Preparação</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td id="potion-price"></td>
+            <td id="potion-cost"></td>
+            <td id="potion-dc"></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section id="pwa-section">
+      <button id="installButton" class="install-button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+          <polyline points="7 10 12 15 17 10"></polyline>
+          <line x1="12" y1="15" x2="12" y2="3"></line>
+        </svg>
+        Instalar App
+      </button>
+    </section>
+    <footer>
+      <small>Feito por <a href="https://github.com/antoniovpires">antoniovpires</a></small>
+      <br>
+      <small class="dedicated">Ferramenta criada para o sistema <a href="https://jamboeditora.com.br/categoria/rpg/tormenta20-rpg/">Tormenta20</a></small>
+    </footer>
+  </main>
+</body>
+<script src="./script.js"></script>
+</html>
